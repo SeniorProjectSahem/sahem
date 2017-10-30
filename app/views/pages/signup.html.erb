@@ -1,0 +1,109 @@
+<html>
+  <title> Sign Up </title>
+<!--/* https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-divider&stacked=h (for dropdown list & buttons)*/-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+  <!--/* remove this to input the logo and nav bar (from)*/-->
+  <!--<div class="jumbotron text-center" style="background-color:#ffffff">-->
+  <!--  <h1 style="color:black">Space for nav bar and logo </h1>-->
+  <!--</div>-->
+  <!--/* remove this to input the logo and nav bar (to)*/-->
+
+  <body style="background-color:#ffe0b3">
+  <div class="container" style="background-color:#ffe0b3"> 
+  <br> <!-- for nav bar !-->
+  <br>
+  <br>
+  <h1>Sign Up</h1>
+<!--https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp (form) -->
+    <form role="form">
+    <br>
+      <div class="form-group">
+        <label for="fullname">*Full Name</label>
+        <input type="text" id="fullname" name="fullname" class="form-control" />
+      </div>
+  
+      <div class="form-group">
+        <label for="username">*Username</label>
+        <input type="text" id="username" name="username" class="form-control" />
+      </div>
+  
+      <div class="form-group">
+        <label for="email">*Email</label>
+        <input type="text" id="email" name="email" class="form-control" />
+      </div>
+  
+      <div class="form-group">
+        <label for="password">*Password</label>
+        <input type="password" id="password" name="password" class="form-control" />
+      </div>
+  
+      <div class="form-group">
+        <label for="phonenumber">*Phone Number</label>
+        <input type="integer" id="phonenumber" name="phonenumber" class="form-control" />
+      </div>
+  
+  <!--<div class="form-group">-->
+  <!--  <label for="area">*Area</label>-->
+  <!--  <input type="text" id="area" name="area" class="form-control" />-->
+  <!--</div>-->
+  
+<!--<div class="form-group">-->
+
+<!--/* https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_dropdown-divider&stacked=h (for dropdown list)*/-->
+
+      <div class="dropdown">
+        <label for="location">*Location</label>
+  <br>
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" size="50">Select location/area
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ad Dawha</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Al Wakrah</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Umm Salal</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Al Shahaneya</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Al Rayyan</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Other</a></li>
+        </ul>
+      </div>
+  <br>
+<!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_form_radio_inline&stacked=h (inline radio buttons)-->
+<!--/* https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_form_radio&stacked=h (for the radio buttons)*/-->
+      
+      <label for="usertype">*User type</label>
+        
+        <div class="container">
+        <form>
+          <label class="radio-inline">
+            <input type="radio" name="optradio">Individual
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="optradio">Business
+          </label>
+        </form>
+        </div>
+        
+  <!--<div class="usertype">-->
+  <!--  <label for="usertype">*User type</label><br>-->
+  <!--    <label><input type="radio" name="optradio"> Individual </label>-->
+  <!--    <label><input type="radio" name="optradio"> Business</label>-->
+  <!--</div>-->
+  <!--<div class="usertype">-->
+  <!--<label><input type="radio" name="business"> Business</label>-->
+  <!--</div>-->
+  
+  <br>
+  <!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h (buttons)-->
+        <button type="button" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>
+
