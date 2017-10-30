@@ -1,0 +1,99 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.title{
+	text-align: center;
+	margin-top:1%;
+	color:white;
+	font-size: 70px;
+}
+.landingPagePar{
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:15%;
+	
+}
+
+/* css for search from https://bootsnipp.com/snippets/featured/custom-search-input  */
+
+.stylish-input-group .input-group-addon{
+    background: orange !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+	margin-top:5%;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;	
+	margin-top:10%;
+}
+
+/* end of css for search from https://bootsnipp.com/snippets/featured/custom-search-input  */
+
+
+
+body {
+    position: relative; 
+}
+#home {
+
+	padding-top:90px;height:710px;color: black;
+}
+#items {
+	padding-top:50px;height:340px;color: #fff; background-color: orange; text-align: center;
+}
+
+#about {
+	padding-top:50px;
+	height:500px; 
+	background-color: white; 
+	text-align:center;
+	color:black;
+}
+
+#contact {padding-top:50px;height:500px;color: #fff; background-color: orange;}
+
+.carousel-caption{
+	top:48.5%;transform: translateY(-50%);}
+
+
+.btn {
+	font-weight: 900;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 300px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}	
+
+.btncustom{
+	color: #FF5733; background-color: #800000;
+}
+
+.aboutPar{
+	font-size: 24px;
+}
+
+.hr1 {
+    background-color: white !important;
+    border: solid 1px white !important;
+    height: 3px !important;
+    width: 50px !important;
+}
+.hr2 {
+    background-color: orange !important;
+    border: solid 1px orange !important;
+    height: 3px !important;
+    width: 50px !important;
+}
+
+
+
