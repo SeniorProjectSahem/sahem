@@ -38,8 +38,12 @@
 					<li><a href="#about">About</a></li> <!--Add team-->
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="#faq">FAQ</a></li>
-					<li><a href="#login">Log In</a></li>
 					
+					<% if user_signed_in? %>
+					<li><a><%= link_to destroy_user_session_path, :method => :delete do %><i class="glyphicon glyphicon-log-out"></i> signout<% end %></a></li>
+					<% else %>
+					<li><a><%= link_to user_session_url do %><i class="glyphicon glyphicon-log-in"></i> signin<% end %></a></li>
+					<% end %>
 				</ul>
 			</div>
 			

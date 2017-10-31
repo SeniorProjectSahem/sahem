@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   belongs_to :location
   belongs_to :usertype
+  has_many :items
   
   def name
     "#{first_name} #{last_name}"
