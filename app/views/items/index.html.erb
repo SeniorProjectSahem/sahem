@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h3 align="center">All Items</h3>
-<table class="table table-bordered">
+<table class="table table-bordered" id="itemsAll">
   <thead>
     <tr class="active">
       <th>Name</th>
@@ -12,13 +12,13 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody >
     <% @items.each do |item| %>
-      <tr class="active">
+      <tr class="active" >
         <td><%= item.name %></td>
         <td><%= item.description %></td>
-        <td><%= item.user %></td>
-        <td><%= item.category%></td>
+        <td><%= item.user.name %></td>
+        <td><%= item.category.name%></td>
         <td><%= link_to 'Show', item, class:'btn btn-default' %></td>
         <td><%= link_to 'Edit', edit_item_path(item), class:'btn btn-default' %></td>
         <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-default' %></td>

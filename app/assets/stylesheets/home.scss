@@ -10,31 +10,53 @@
 	margin-top:1%;
 	color:white;
 	font-size: 70px;
+	
 }
 .landingPagePar{
 	text-align: center;
-	color:white;
 	font-weight: bold;
 	font-size: 20px;
 	margin-top:15%;
+	color:white;
+	
 	
 }
+
+.landingPagePar2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color:#ff8b42;
+	padding-right:400px;
+	padding-left:400px;
+}
+.whatissahem{
+	color:#ff8b42;
+}
+
+
 
 /* css for search from https://bootsnipp.com/snippets/featured/custom-search-input  */
 
 .stylish-input-group .input-group-addon{
-    background: orange !important; 
+    background: #ff8b42 !important; 
+
+	border-radius: 40px !important;
 }
 .stylish-input-group .form-control{
 	border-right:0; 
 	box-shadow:0 0 0; 
 	border-color:#ccc;
-	margin-top:5%;
+	padding: 10px 40px !important; 
+	width: 200px;
+	border-radius: 40px !important;
+	
 }
 .stylish-input-group button{
     border:0;
+	color:white;
     background:transparent;	
-	margin-top:10%;
+
 }
 
 /* end of css for search from https://bootsnipp.com/snippets/featured/custom-search-input  */
@@ -48,52 +70,60 @@ body {
 
 	padding-top:90px;height:710px;color: black;
 }
-#items {
-	padding-top:50px;height:340px;color: #fff; background-color: orange; text-align: center;
-}
-
 #about {
-	padding-top:50px;
-	height:500px; 
-	background-color: white; 
-	text-align:center;
-	color:black;
+	padding-top:50px;height:420px;color: black; background-color: #f8f9fa!important; text-align: center;
 }
 
-#contact {padding-top:50px;height:500px;color: #fff; background-color: orange;}
+
+#contact {height:630px;color: black; background-color: #f8f9fa!important}
 
 .carousel-caption{
 	top:48.5%;transform: translateY(-50%);}
 
 
 .btn {
-	font-weight: 900;
+	padding: 10px 40px !important; 
+	width: 200px;
+	border-radius: 40px !important;
+	
+	font-weight: 900 !important;
 	text-transform: uppercase;
 	border: none;
-	border-radius: 300px;
 	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color:white;
+	background-color: #ff8b42;
+	
 }	
 
-.btncustom{
-	color: #FF5733; background-color: #800000;
-}
 
-.aboutPar{
-	font-size: 24px;
-}
 
 .hr1 {
-    background-color: white !important;
-    border: solid 1px white !important;
-    height: 3px !important;
+    background-color: black !important;
+    border: solid 0.5px black !important;
+    height: 1px !important;
     width: 50px !important;
 }
 .hr2 {
-    background-color: orange !important;
-    border: solid 1px orange !important;
-    height: 3px !important;
+    background-color: #ff8b42 !important;
+    border: solid 1px #ff8b42 !important;
+    height: 1px !important;
     width: 50px !important;
 }
 
 
 
+.form-group input, .form-group textarea {
+    padding: 20px;
+}
+
+.text-primary {
+    color: #ff8b42!important;
+}
+
+.contactPar{	
+	color:#ff8b42;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right:400px;
+	padding-left:400px;
+}
