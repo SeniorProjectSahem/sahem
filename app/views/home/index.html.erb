@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>sahem</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--For size to be consistent across all platform devices-->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
 
-</head>
 <!-- The scrollable area -->
 <body>
 	<!-- Section 1 -->
@@ -35,9 +25,9 @@
 	  	</div>
 
 <div class="carousel-caption">
-	<br>
-	<button type="submit" class="btn">Lend an Item</button>&nbsp;&nbsp;
-	<button type="submit" class="btn">Learn More</button>		
+	<h5 class="title">...or</h5>
+	<%= link_to new_item_url do %><button class="btn">Lend an Item</button> <% end %> &nbsp;&nbsp;
+			
 		
 </div>
 	  
