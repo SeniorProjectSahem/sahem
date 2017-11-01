@@ -1,6 +1,8 @@
 <p id="notice"><%= notice %></p>
 
+
 <%= image_tag @item.image.url(:medium) %>
+
 
 <p>
   <strong>Name:</strong>
@@ -14,13 +16,15 @@
 
 <p>
   <strong>User:</strong>
-  <%= @item.user %>
+  <%= @item.user.email %>
 </p>
 
 <p>
   <strong>Category:</strong>
-  <%= @item.category %>
+  <%= @item.category.name %>
 </p>
+
+
 
 <%= link_to 'Edit', edit_item_path(@item) %> |
 <%= link_to 'Back', items_path %>
