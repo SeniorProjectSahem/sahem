@@ -43,9 +43,7 @@
 					<li><a><%= link_to root_url do %>Home <% end %></a></li>
 					<li><a><%= link_to items_url do %>Borrow <% end %></a></li>
 					<li><a><%= link_to new_item_url do %>Lend <% end %></a></li>
-					<li><a>About</a></li> <!--Add team-->
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="#faq">FAQ</a></li>
+
 					
 					<% if user_signed_in? %>
 					<li><a><%= link_to destroy_user_session_path, :method => :delete do %><i class="glyphicon glyphicon-log-out"></i> signout<% end %></a></li>

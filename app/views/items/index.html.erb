@@ -1,7 +1,7 @@
 <div class="container">
 <p id="notice"><%= notice %></p>
 
-<h3 align="center">All Items</h3>
+<h3 class="all-items">All Items</h3>
 <table class="table table-bordered" id="itemsAll">
   <thead>
     <tr class="active">
@@ -21,6 +21,7 @@
         <td><%= item.description %></td>
         <td><%= item.user.email %></td>
         <td><%= item.category.name %></td>
+        <td><%= item.prices %></td>
         <td><%= link_to 'Details', item, class:'btn btn-default' %></td>
       </tr>
     <% end %>
