@@ -21,8 +21,17 @@
         <td><%= item.description %></td>
         <td><%= item.user.email %></td>
         <td><%= item.category.name %></td>
+<<<<<<< HEAD
         <td><%= item.prices %></td>
         <td><%= link_to 'Details', item, class:'btn btn-default' %></td>
+=======
+        <td><%= item.daily_price %></td>
+        <td><%= item.weekly_price %></td>
+        <td><%= item.monthly_price %></td>
+        <td><%= link_to 'Show', item, class:'btn btn-default' %></td>
+        <td><%= link_to 'Edit', edit_item_path(item), class:'btn btn-default' %></td>
+        <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-default' %></td>
+>>>>>>> 4506f7204023f7421cebb5cd610661a7ed2b96d5
       </tr>
     <% end %>
   </tbody>
